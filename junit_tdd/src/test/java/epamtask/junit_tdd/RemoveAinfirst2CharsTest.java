@@ -23,27 +23,27 @@ class RemoveAinfirst2CharsTest {
 	}
 	
 	@Test
-	void testfirst2Chars() {
+	void testcase1first2Chars() {
 		 assertEquals("BCD",removeAin1st2chars.remove("ABCD"));
 	}
 	
 	@Test
-	void testfirst2Chars1() {
+	void testcase2first2Chars() {
 		 assertEquals("CD",removeAin1st2chars.remove("AACD"));
 	}
 	
 	@Test
-	void testfirst2Chars2() {
+	void testcase3first2Chars() {
 		 assertEquals("BCD",removeAin1st2chars.remove("BACD"));
 	}
 	
 	@Test
-	void testfirst2Chars3() {
+	void testcase4first2Chars() {
 		 assertEquals("BBAA",removeAin1st2chars.remove("BBAA"));
 	}
 	
 	@Test
-	void testfirst2Chars4() {
+	void testcase5first2Chars() {
 		 assertEquals("BAA",removeAin1st2chars.remove("AABAA"));
 	}
 	
