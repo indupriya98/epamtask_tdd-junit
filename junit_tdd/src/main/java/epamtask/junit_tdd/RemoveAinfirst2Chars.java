@@ -3,7 +3,7 @@ package epamtask.junit_tdd;
 public class RemoveAinfirst2Chars {
        public String remove(String actual) {
     	   String result="";
-           
+           actual=actual.toUpperCase();
         	   if(actual.charAt(0)=='A' && actual.charAt(1)=='A'){
         		   result=result+actual.substring(2);
         	   }
